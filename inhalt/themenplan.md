@@ -9,6 +9,7 @@ nach Abschnitt 4 bestätigt. Seitengerüst und erster Artikel ab Mitte November
 2026, nach einem inhaltlichen Vorgespräch.
 
 **11. November 2026:** Repository angelegt, Themenplan hierher übernommen.
+Technik entschieden: **Hugo** (Entscheid Nr. 2).
 GitHub Pages ist bewusst noch nicht aktiviert — ohne `index.html` würde Pages
 sonst diesen Arbeitsplan als Startseite ausliefern. Aktivierung erst mit dem
 Seitengerüst.
@@ -426,7 +427,7 @@ ein sichtbares Feld «Stand» und im Repository ein Review-Datum. Fester Termin:
 | Nr. | Entscheid | Konsequenz bei Untätigkeit |
 |---|---|---|
 | 1 | ~~Hosting und Domain.~~ **Erledigt am 11. November 2026:** Repository `jostcent.github.io` angelegt, Themenplan übernommen. Das Repository `jostcent` bleibt Profil-Repository. Pages noch nicht aktiviert, siehe Kopf dieses Dokuments. | — erledigt |
-| 2 | **Technik.** Statische Seite von Hand, Generator (Hugo, Eleventy) oder Framework. Bei zwanzig Artikeln mit Review-Daten und Quellenangaben ist ein Generator die richtige Wahl. | Spätere Migration von Hand geschriebener Artikel. |
+| 2 | ~~Technik.~~ **Entschieden am 11. November 2026: Hugo.** Ein einzelnes Programm ohne weitere Abhängigkeiten, fertige Themes für Artikelseiten mit Rubriken und Datum. Artikel als Markdown mit Kopffeldern (`titel`, `stand`, `rubrik`); das Feld `stand` trägt die Aktualitätsregel aus Abschnitt 5. | — erledigt |
 | 3 | **Impressum und Datenschutzerklärung.** Pflicht, sobald die Seite öffentlich ist und ein Kontaktweg besteht. | Rechtsrisiko ab dem ersten Tag online. |
 | 4 | **Block 8** schärfen oder streichen. Vorgespräch Mitte November. | Ein beliebiger Artikel schwächt die übrigen. |
 | 5 | **Kontaktweg.** Formular, E-Mail oder keiner. Ein Kontaktweg auf einer Seite über Hilflosenentschädigung erzeugt Anfragen zu Einzelfällen — mit Fristen. | Unbeantwortete Anfragen von Menschen in laufenden Verfahren. |

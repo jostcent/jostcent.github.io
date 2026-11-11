@@ -23,9 +23,10 @@ Settings → Pages → Source «Deploy from a branch» → `main` / root.
 ## Nächste Schritte
 
 1. Vorgespräch zu Seitengerüst und erstem Artikel, Mitte November 2026.
-2. Technikentscheid: statische Seite von Hand oder Generator (Hugo, Eleventy).
-   Bei rund zwanzig geplanten Artikeln mit Review-Daten und Quellenangaben
-   spricht alles für einen Generator.
+2. ~~Technikentscheid.~~ Entschieden am 11. November 2026: **Hugo**.
+   Artikel als Markdown mit Kopffeldern `titel`, `stand`, `rubrik`; daraus
+   baut Hugo Navigation, Rubrikenübersicht und Artikelseiten. Das Feld
+   `stand` trägt die Aktualitätsregel weiter unten.
 3. Impressum und Datenschutzerklärung — Pflicht ab dem ersten Tag online.
 4. Entscheid über einen Kontaktweg. Eine Seite über Hilflosenentschädigung
    erzeugt Anfragen zu Einzelfällen mit laufenden Fristen.
